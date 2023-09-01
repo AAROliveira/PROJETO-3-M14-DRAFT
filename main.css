@@ -1,0 +1,56 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar {
+    background-color: #080835;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: #080835;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-categorias .nav-link.active:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+
+#carousel {
+max-width: fit-content;
+}
+
+#sobre-o-site, #categorias, #passo-a-passo, #newsletter {
+    background-color: white;
+}
+
+.text-colored {
+    color: #080835;
+}
+
+.nav-categorias .nav-link.active,
+#newsletter button {
+    background-color: #080835;
+    color: white;
+}
+
+.nav-categorias .nav-link:hover {
+    color: #080835;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
